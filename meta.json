@@ -1,0 +1,40 @@
+{
+  "name": "Simulateur d'Évolution des Styles Vestimentaires",
+  "description": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.",
+  "theme": "calculator",
+  "design_theme": "future-in-motion",
+  "structure_preset": "bento-signal",
+  "render_direction": "signal-bento",
+  "page_blueprint": "signal-matrix",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://simulateur-d-evolution-des-styles-vestimentaires-3.onrender.com",
+  "created": "2026-04-12T22:38:24.587626+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1776033344860",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: badges",
+    "Design theme: Future in Motion",
+    "Render direction: Signal Bento",
+    "Page blueprint: Signal Matrix",
+    "Runtime mode: generic_calculator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
