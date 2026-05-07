@@ -1,29 +1,44 @@
 {
-  "run_id": "run-1776033344860",
-  "job_index": 3,
+  "run_id": "run-1778154805505",
+  "job_index": 1,
   "params": {
     "owner_user_id": "user-1774822953462",
     "owner_username": "admin",
     "owner_display_name": "Administrator",
-    "count": 3,
+    "count": 1,
     "archetype": "calculator",
-    "market": "France",
+    "market": "Growth republish",
     "language": "fr",
     "country": "FR",
-    "brief": "Un outil pour les créateurs, designers et passionnés de mode qui souhaitent anticiper les styles du futur.",
-    "notes": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.\nVisuels futuristes et conceptuels, basés sur des recherches en prospective.",
-    "import_notes": "",
-    "growth_job_id": "",
-    "growth_slug": "",
-    "growth_kind": "",
+    "brief": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.",
+    "notes": "Growth module republish of an updated local artifact.",
+    "import_notes": "Growth module republish of an updated local artifact.",
+    "growth_job_id": "growth-1778154698063",
+    "growth_slug": "simulateur-d-evolution-des-styles-vestimentaires-3",
+    "growth_kind": "affiliate",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
     "mode": "production",
-    "run_kind": "generated_batch",
+    "run_kind": "import_deploy",
     "publish_target": "render",
     "requested_publish_target": "render",
     "railway_project_id_override": "",
     "railway_environment_id_override": "",
-    "railway_service_id_override": "",
-    "railway_service_name_override": "",
+    "railway_service_id_override": "srv-d7e1uol7vvec73f1mpdg",
+    "railway_service_name_override": "simulateur-d-evolution-des-styles-vestimentaires-3",
     "github_repo_private": true,
     "stage_models": {
       "ideation": "google/gemini-2.5-flash-lite:nitro",
@@ -32,256 +47,33 @@
       "qa": "anthropic/claude-haiku-4.5",
       "escalation": "anthropic/claude-sonnet-4.6"
     },
-    "archetype_display": "mixed batch",
+    "archetype_display": "file deploy",
     "archetype_mix": [
-      "tool",
-      "generator",
+      "imported"
+    ],
+    "forced_slug": "simulateur-d-evolution-des-styles-vestimentaires-3",
+    "site_idea_title": "Simulateur d'Évolution des Styles Vestimentaires",
+    "site_idea_summary": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.",
+    "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778154698063/simulateur-d-evolution-des-styles-vestimentaires-3",
+    "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778154698063/simulateur-d-evolution-des-styles-vestimentaires-3",
+    "import_analysis_model": "preserved-analysis"
+  },
+  "import_analysis": {
+    "title": "Simulateur d'Évolution des Styles Vestimentaires",
+    "description": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.",
+    "summary": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.",
+    "notes": "Growth module republish of an updated local artifact.",
+    "archetype": "calculator",
+    "language": "fr",
+    "country": "FR",
+    "market": "Growth republish",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
       "calculator"
     ],
-    "forced_design_theme": "future-in-motion",
-    "forced_structure_preset": "bento-signal",
-    "site_idea_title": "Simulateur d'Évolution des Styles Vestimentaires",
-    "site_idea_summary": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux."
+    "suggested_slug": "simulateur-d-evolution-des-styles-vestimentaires-3"
   },
-  "site_spec": {
-    "slug": "simulateur-d-evolution-des-styles-vestimentaires-3",
-    "theme": {
-      "name": "Future in Motion",
-      "slug": "future-in-motion",
-      "eyebrow": "Rhythm Layer",
-      "family": "future-in-motion",
-      "moods": [
-        "kinetic",
-        "dynamic",
-        "futuristic",
-        "sharp"
-      ],
-      "archetypes": [
-        "tool",
-        "generator",
-        "calculator"
-      ],
-      "niches": [
-        "ai utility",
-        "media tools",
-        "marketing utility",
-        "research labs",
-        "ops"
-      ],
-      "keywords": [
-        "motion",
-        "rhythm",
-        "dynamic",
-        "future",
-        "gradient"
-      ],
-      "token_index": [
-        "calculator",
-        "dynamic",
-        "future",
-        "futuristic",
-        "generator",
-        "gradient",
-        "kinetic",
-        "labs",
-        "layer",
-        "marketing",
-        "media",
-        "motion",
-        "ops",
-        "research",
-        "rhythm",
-        "sharp",
-        "tool",
-        "tools",
-        "utility"
-      ],
-      "font_embed": "https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap",
-      "display_font": "\"Syne\", sans-serif",
-      "body_font": "\"Inter\", sans-serif",
-      "layout": "asymmetric",
-      "card_style": "glass",
-      "button_style": "gradient",
-      "decor_style": "orbs",
-      "hero_template": "0.88fr 1.12fr",
-      "seo_template": "1.18fr 0.82fr",
-      "feature_columns": 2,
-      "faq_columns": 3,
-      "hero_min_height": "78vh",
-      "panel_radius": "28px",
-      "card_radius": "26px",
-      "chip_radius": "999px",
-      "button_radius": "18px",
-      "outline_width": "1px",
-      "backdrop_blur": "22px",
-      "palette": {
-        "bg": "linear-gradient(135deg, #0b132b 0%, #1d4ed8 38%, #22d3ee 100%)",
-        "surface": "rgba(9, 18, 38, 0.74)",
-        "surface_border": "rgba(34,211,238,0.18)",
-        "text": "#f3f9ff",
-        "muted": "#c0d7ef",
-        "accent": "#22d3ee",
-        "accent_alt": "#f97316",
-        "hero_glow": "rgba(34, 211, 238, 0.22)",
-        "button_text": "#071219",
-        "panel_alt": "rgba(255,255,255,0.06)",
-        "shadow": "0 30px 90px rgba(2, 6, 23, 0.34)",
-        "input_fill": "rgba(255,255,255,0.06)"
-      }
-    },
-    "structure": {
-      "name": "Bento Signal",
-      "slug": "bento-signal",
-      "hero_variant": "command",
-      "proof_variant": "badges",
-      "section_order": [
-        "proof",
-        "features",
-        "seo",
-        "faq"
-      ],
-      "feature_columns": 4,
-      "faq_columns": 2,
-      "family": "modular-grid",
-      "moods": [
-        "modular",
-        "curated",
-        "technical"
-      ],
-      "archetypes": [
-        "tool",
-        "generator",
-        "calculator"
-      ],
-      "niches": [
-        "ai tools",
-        "dashboards",
-        "productivity",
-        "research"
-      ],
-      "keywords": [
-        "bento",
-        "cards",
-        "signal",
-        "system"
-      ],
-      "token_index": [
-        "badges",
-        "bento",
-        "calculator",
-        "cards",
-        "command",
-        "curated",
-        "dashboards",
-        "faq",
-        "features",
-        "generator",
-        "grid",
-        "modular",
-        "productivity",
-        "proof",
-        "research",
-        "seo",
-        "signal",
-        "system",
-        "technical",
-        "tool",
-        "tools"
-      ]
-    },
-    "render_direction": "signal-bento",
-    "render_direction_name": "Signal Bento",
-    "page_blueprint": "signal-matrix",
-    "page_blueprint_name": "Signal Matrix",
-    "title": "Simulateur d'Évolution des Styles Vestimentaires",
-    "tagline": "Anticipez l'Inimaginable",
-    "description": "Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.",
-    "feature_prefix": "Bloc",
-    "action": "Utiliser l'outil",
-    "cta_primary": "Générer les Tendances Futures",
-    "cta_secondary": "Consulter la FAQ",
-    "inputs": [
-      {
-        "id": "amount",
-        "label": "Montant de base",
-        "type": "number",
-        "placeholder": "7500",
-        "weight": 1.0
-      },
-      {
-        "id": "duration",
-        "label": "Durée estimée",
-        "type": "number",
-        "placeholder": "12",
-        "weight": 0.42
-      },
-      {
-        "id": "plan",
-        "label": "Niveau de service",
-        "type": "select",
-        "options": [
-          {
-            "label": "Essentiel",
-            "value": 1.0
-          },
-          {
-            "label": "Performance",
-            "value": 1.18
-          },
-          {
-            "label": "Premium",
-            "value": 1.34
-          }
-        ],
-        "weight": 1.0
-      }
-    ],
-    "hero_metrics": [
-      {
-        "value": "Signal Bento",
-        "label": "Cadence"
-      },
-      {
-        "value": "3",
-        "label": "Entrées"
-      },
-      {
-        "value": "Résultat recommandé",
-        "label": "Sortie"
-      }
-    ],
-    "trust_labels": [
-      "Signal Bento",
-      "Générer les Tendances Futures",
-      "Résultat recommandé",
-      "Utilitaire immédiat",
-      "Structure SEO claire"
-    ],
-    "result_label": "Résultat recommandé",
-    "result_unit": "EUR",
-    "runtime_mode": "generic_calculator",
-    "page_variant": "console",
-    "faq_topic": "Simulateur d'Évolution des Styles Vestimentaires",
-    "faq_entries": [
-      {
-        "question": "Pourquoi utiliser cet outil pour Simulateur d'Évolution des Styles Vestimentaires ?",
-        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
-      },
-      {
-        "question": "Le résultat est-il immédiat ?",
-        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
-      },
-      {
-        "question": "Cette page est-elle adaptée au SEO ?",
-        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
-      }
-    ],
-    "seo_paragraphs": [
-      "Cette page capte une intention forte autour de Simulateur d'Évolution des Styles Vestimentaires et la transforme en action utile pour un public situé sur France.",
-      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
-      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
-    ],
-    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Simulateur d&#x27;Évolution des Styles Vestimentaires | Anticipez l&#x27;Inimaginable</title>\n    <meta name=\"description\" content=\"Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.\">\n    <style>\n        :root {\n            --color-bg: #0D1117;\n            --color-text: #E6EDF3;\n            --color-primary: #8C52FF;\n            --color-secondary: #00A6FB;\n            --color-accent: #00F5D4;\n            --color-card-bg: #161B22;\n            --font-family-display: 'Segoe UI', 'Roboto', sans-serif;\n            --font-family-ui: 'Open Sans', sans-serif;\n            --border-radius: 8px;\n            --spacing-unit: 16px;\n        }\n\n        body {\n            font-family: var(--font-family-ui);\n            background-color: var(--color-bg);\n            color: var(--color-text);\n            margin: 0;\n            line-height: 1.6;\n            overflow-x: hidden;\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: var(--spacing-unit);\n        }\n\n        header {\n            background: linear-gradient(135deg, var(--color-card-bg), #1B2028);\n            padding: calc(var(--spacing-unit) * 3) var(--spacing-unit);\n            text-align: center;\n            border-bottom: 2px solid var(--color-primary);\n        }\n\n        header h1 {\n            font-family: var(--font-family-display);\n            font-size: 3.5em;\n            color: var(--color-accent);\n            margin-bottom: var(--spacing-unit);\n            letter-spacing: -1px;\n            text-shadow: 0 0 10px rgba(140, 82, 255, 0.5);\n        }\n\n        header p {\n            font-size: 1.2em;\n            color: #B0C4DE;\n            max-width: 800px;\n            margin: 0 auto;\n        }\n\n        .section-intro {\n            background-color: var(--color-bg);\n            padding: calc(var(--spacing-unit) * 3) 0;\n            text-align: center;\n        }\n\n        .section-intro h2 {\n            font-family: var(--font-family-display);\n            font-size: 2.5em;\n            color: var(--color-secondary);\n            margin-bottom: var(--spacing-unit);\n            letter-spacing: -0.5px;\n        }\n\n        .section-intro p {\n            max-width: 900px;\n            margin: 0 auto var(--spacing-unit) auto;\n            color: #C0D0E0;\n            font-size: 1.1em;\n        }\n\n        .tool-section {\n            background: linear-gradient(135deg, #161B22, #21262D);\n            padding: calc(var(--spacing-unit) * 3) 0;\n            border-top: 1px solid var(--color-card-bg);\n            border-bottom: 1px solid var(--color-card-bg);\n        }\n\n        .tool-card {\n            background-color: var(--color-card-bg);\n            border-radius: var(--border-radius);\n            padding: calc(var(--spacing-unit) * 2);\n            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);\n            max-width: 900px;\n            margin: 0 auto;\n        }\n\n        .tool-card h3 {\n            font-family: var(--font-family-display);\n            color: var(--color-primary);\n            font-size: 1.8em;\n            margin-top: 0;\n            margin-bottom: var(--spacing-unit);\n            text-align: center;\n        }\n\n        #tool-form {\n            display: grid;\n            gap: var(--spacing-unit);\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n        }\n\n        .form-group {\n            display: flex;\n            flex-direction: column;\n        }\n\n        label {\n            font-weight: bold;\n            margin-bottom: 5px;\n            color: var(--color-text);\n            font-size: 0.9em;\n            text-transform: uppercase;\n        }\n\n        select, input[type=\"range\"] {\n            padding: calc(var(--spacing-unit) / 2);\n            border-radius: var(--border-radius);\n            border: 1px solid #30363D;\n            background-color: #21262D;\n            color: var(--color-text);\n            font-size: 1em;\n        }\n\n        input[type=\"range\"] {\n            -webkit-appearance: none;\n            height: 8px;\n            background: #30363D;\n            outline: none;\n            opacity: 0.7;\n            transition: opacity .2s;\n        }\n\n        input[type=\"range\"]:hover {\n            opacity: 1;\n        }\n\n        input[type=\"range\"]::-webkit-slider-thumb {\n            -webkit-appearance: none;\n            appearance: none;\n            width: 20px;\n            height: 20px;\n            border-radius: 50%;\n            background: var(--color-primary);\n            cursor: pointer;\n            border: 2px solid var(--color-bg);\n        }\n\n        input[type=\"range\"]::-moz-range-thumb {\n            width: 20px;\n            height: 20px;\n            border-radius: 50%;\n            background: var(--color-primary);\n            cursor: pointer;\n            border: 2px solid var(--color-bg);\n        }\n\n        #tool-submit {\n            grid-column: 1 / -1;\n            padding: var(--spacing-unit);\n            background-color: var(--color-accent);\n            color: var(--color-bg);\n            border: none;\n            border-radius: var(--border-radius);\n            font-size: 1.2em;\n            font-weight: bold;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            text-transform: uppercase;\n            letter-spacing: 0.5px;\n        }\n\n        #tool-submit:hover {\n            background-color: #00E0C0;\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            margin-top: calc(var(--spacing-unit) * 2);\n            background-color: #0D1117;\n            border-radius: var(--border-radius);\n            padding: var(--spacing-unit);\n            border: 1px solid var(--color-secondary);\n            font-size: 1.1em;\n            line-height: 1.8;\n            min-height: 100px;\n        }\n\n        #tool-result h4 {\n            color: var(--color-secondary);\n            font-family: var(--font-family-display);\n            margin-top: 0;\n            border-bottom: 1px dashed #30363D;\n            padding-bottom: 10px;\n        }\n\n        #tool-result .trend-category {\n            margin-bottom: var(--spacing-unit);\n        }\n\n        #tool-result .trend-category strong {\n            color: var(--color-primary);\n            display: block;\n            margin-bottom: 5px;\n        }\n        \n        .section-vision {\n            background: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\"><defs><linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"%23161B22\"/><stop offset=\"100%\" stop-color=\"%230D1117\"/></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"url(%23g)\"/><path d=\"M0 0 L100 0 L100 100 L0 100 Z\" fill=\"none\" stroke=\"%2330363D\" stroke-width=\"0.1\"/><path d=\"M0 0 L5 100 M10 0 L15 100 M20 0 L25 100 M30 0 L35 100 M40 0 L45 100 M50 0 L55 100 M60 0 L65 100 M70 0 L75 100 M80 0 L85 100 M90 0 L95 100\" stroke=\"%2330363D\" stroke-width=\"0.05\"/></svg>') repeat;\n            background-size: 100px 100px;\n            padding: calc(var(--spacing-unit) * 4) 0;\n            text-align: center;\n            border-top: 2px solid var(--color-primary);\n        }\n\n        .section-vision h2 {\n            font-family: var(--font-family-display);\n            font-size: 3em;\n            color: var(--color-accent);\n            margin-bottom: var(--spacing-unit) * 2;\n        }\n\n        .vision-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: calc(var(--spacing-unit) * 2);\n            max-width: 1000px;\n            margin: 0 auto;\n        }\n\n        .vision-item {\n            background-color: var(--color-card-bg);\n            padding: var(--spacing-unit);\n            border-radius: var(--border-radius);\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);\n            border-left: 3px solid var(--color-secondary);\n            text-align: left;\n        }\n\n        .vision-item h4 {\n            color: var(--color-primary);\n            font-family: var(--font-family-display);\n            font-size: 1.4em;\n            margin-top: 0;\n        }\n\n        .vision-item p {\n            font-size: 0.95em;\n            color: #C0D0E0;\n        }\n\n        .cta-section {\n            background-color: var(--color-bg);\n            padding: calc(var(--spacing-unit) * 3) 0;\n            text-align: center;\n            border-top: 1px solid var(--color-card-bg);\n        }\n\n        .cta-section h2 {\n            font-family: var(--font-family-display);\n            font-size: 2.2em;\n            color: var(--color-text);\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .cta-section button {\n            padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);\n            background-color: var(--color-primary);\n            color: var(--color-bg);\n            border: none;\n            border-radius: var(--border-radius);\n            font-size: 1.1em;\n            font-weight: bold;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            text-transform: uppercase;\n        }\n\n        .cta-section button:hover {\n            background-color: #A06EFF;\n            transform: translateY(-2px);\n        }\n\n        footer {\n            background-color: #0D1117;\n            color: #8B949E;\n            text-align: center;\n            padding: calc(var(--spacing-unit) * 2) var(--spacing-unit);\n            font-size: 0.9em;\n            border-top: 1px solid #30363D;\n            margin-top: auto;\n        }\n\n        footer .seo-text {\n            max-width: 900px;\n            margin: var(--spacing-unit) auto;\n            text-align: left;\n            line-height: 1.5;\n            color: #B0C4DE;\n            font-size: 0.85em;\n        }\n\n        footer .seo-text h3 {\n            color: var(--color-primary);\n            font-family: var(--font-family-display);\n            font-size: 1.5em;\n            margin-bottom: var(--spacing-unit);\n        }\n\n        footer .seo-text p {\n            margin-bottom: 0.8em;\n        }\n\n        @media (max-width: 768px) {\n            header h1 {\n                font-size: 2.5em;\n            }\n\n            .section-intro h2 {\n                font-size: 2em;\n            }\n\n            .section-vision h2 {\n                font-size: 2.2em;\n            }\n\n            #tool-form {\n                grid-template-columns: 1fr;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://simulateur-d-evolution-des-styles-vestimentaires-3.onrender.com\">\n    <meta property=\"og:title\" content=\"Simulateur d&#x27;Évolution des Styles Vestimentaires\">\n    <meta property=\"og:description\" content=\"Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.\">\n    <meta property=\"og:url\" content=\"https://simulateur-d-evolution-des-styles-vestimentaires-3.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Simulateur d'Évolution des Styles Vestimentaires\", \"description\": \"Explorez comment les tendances de mode pourraient évoluer dans les prochaines décennies en fonction de facteurs sociaux, technologiques et environnementaux.\", \"url\": \"https://simulateur-d-evolution-des-styles-vestimentaires-3.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"simulateur-d-evolution-des-styles-vestimentaires-3\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <div class=\"container\">\n            <h1>Simulateur d'Évolution des Styles Vestimentaires</h1>\n            <p>Plongez dans le futur de la mode. Notre outil prospectif révèle les tendances des prochaines décennies, influencées par les révolutions sociales, technologiques et environnementales.</p>\n        </div>\n    </header>\n\n    <section class=\"section-intro\">\n        <div class=\"container\">\n            <h2>Anticipez l'Inimaginable</h2>\n            <p>La mode n'est pas statique ; elle est un miroir dynamique de notre société en mutation. De l'avènement des matériaux intelligents à l'impact du changement climatique, chaque facteur redéfinit notre garde-robe. Designers, créateurs et passionnés, explorez les trajectoires possibles et préparez-vous aux métamorphoses de demain.</p>\n        </div>\n    </section>\n\n    <section class=\"tool-section\">\n        <div class=\"container\">\n            <div class=\"tool-card\">\n                <h3>Votre Laboratoire de Tendances Futures</h3>\n                <form id=\"tool-form\">\n                    <div class=\"form-group\">\n                        <label for=\"social-factor\">Facteurs Sociaux Dominants :</label>\n                        <select id=\"social-factor\">\n                            <option value=\"individualisme\">Individualisme Accru</option>\n                            <option value=\"collectivisme\">Retour au Collectivisme</option>\n                            <option value=\"nomadisme\">Nomadisme Digital</option>\n                            <option value=\"vieillissement\">Vieillissement de la Population</option>\n                        </select>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label for=\"tech-factor\">Avancées Technologiques Clés :</label>\n                        <select id=\"tech-factor\">\n                            <option value=\"ia\">IA et Personnalisation</option>\n                            <option value=\"biomat\">Biomatériaux et Impression 3D</option>\n                            <option value=\"wearables\">Vêtements Connectés et Haptiques</option>\n                            <option value=\"vr\">Réalité Virtuelle et Avatars</option>\n                        </select>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label for=\"env-factor\">Pressions Environnementales :</label>\n                        <select id=\"env-factor\">\n                            <option value=\"durabilite\">Durabilité Radicale</option>\n                            <option value=\"clim-adapt\">Adaptation Climatique</option>\n                            <option value=\"zero-dechet\">Économie Circulaire / Zéro Déchet</option>\n                            <option value=\"biophilie\">Biophilie et Nature</option>\n                        </select>\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label for=\"decade-influence\">Horizon Temporel (Décennies) :</label>\n                        <input type=\"range\" id=\"decade-influence\" min=\"1\" max=\"5\" value=\"2\">\n                        <span id=\"decade-value\" style=\"text-align: center; color: var(--color-primary);\">2 Décennies</span>\n                    </div>\n\n                    <button type=\"submit\" id=\"tool-submit\">Générer les Tendances Futures</button>\n                </form>\n\n                <div id=\"tool-result\">\n                    <h4>Résultat de la Simulation :</h4>\n                    <p>Vos choix détermineront les orientations des styles de demain. Cliquez sur \"Générer les Tendances Futures\" pour lancer la simulation.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"section-vision\">\n        <div class=\"container\">\n            <h2>Notre Vision de la Prospective</h2>\n            <div class=\"vision-grid\">\n                <div class=\"vision-item\">\n                    <h4>Impact des Mégatendances</h4>\n                    <p>La mode n'est jamais isolée. Elle répond aux grandes forces qui façonnent notre monde : démographie, écologie, innovations et mutations culturelles. Nous analysons ces signaux faibles et forts.</p>\n                </div>\n                <div class=\"vision-item\">\n                    <h4>Matériaux Révolutionnaires</h4>\n                    <p>L'innovation textile est au cœur du futur. Des tissus auto-réparants aux bio-polymères cultivés, la matière devient intelligente, durable et personnalisable, transformant les silhouettes.</p>\n                </div>\n                <div class=\"vision-item\">\n                    <h4>Identité et Digitalisation</h4>\n                    <p>Dans un monde où le virtuel et le réel s'entremêlent, l'identité vestimentaire s'étend aux avatars numériques. La gamification et les expériences immersives redéfinissent l'expression de soi.</p>\n                </div>\n                <div class=\"vision-item\">\n                    <h4>Consommation Consciente</h4>\n                    <p>L'ère de l'hyper-consommation cède la place à une quête de sens. Durabilité, traçabilité et éthique deviennent des critères essentiels, poussant à l'upcycling et à la mode circulaire.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"cta-section\">\n        <div class=\"container\">\n            <h2>Prêt à Anticiper l'Avenir de la Mode ?</h2>\n            <button data-affiliate-slot=\"premium-access\">Accédez à nos Rapports Exclusifs</button>\n        </div>\n    </section>\n\n    <footer>\n        <div class=\"container\">\n            <div class=\"seo-text\">\n                <h3>Anticiper les Tendances de la Mode : Votre Guide Complet pour 2030, 2040 et au-delà</h3>\n                <p>Dans un secteur de la mode en constante évolution, comprendre et anticiper les tendances futures est essentiel pour les designers, les marques et les passionnés. Notre simulateur d'évolution des styles vestimentaires vous offre une perspective unique sur ce que la mode nous réserve dans les prochaines décennies. En analysant l'intersection des facteurs sociaux, technologiques et environnementaux, nous décryptons les courants qui façonneront nos garde-robes.</p>\n                <p>Découvrez comment l'intelligence artificielle révolutionnera la personnalisation, comment les biomatériaux transformeront la durabilité, et comment l'adaptation au changement climatique influencera le design fonctionnel. Que vous recherchiez des informations sur la mode futuriste, les textiles innovants, le design durable ou l'impact du digital sur le style, notre outil est une ressource précieuse. Explorez les scénarios possibles pour la mode de 2030, les visions de 2040 et les perspectives lointaines de 2050. Ne soyez plus un suiveur, mais un précurseur des styles de demain.</p>\n                <p>Mots-clés : mode futur, tendances mode 2030, biomatériaux mode, IA et mode, mode durable, stylisme prospectif, design vestimentaire futuriste, innovation textile, mode circulaire, consommation consciente.</p>\n            </div>\n            <p>&copy; 2023 Simulateur d'Évolution des Styles Vestimentaires. Tous droits réservés.</p>\n        </div>\n    </footer>\n\n    <script>\n        document.addEventListener('DOMContentLoaded', () => {\n            const form = document.getElementById('tool-form');\n            const socialFactor = document.getElementById('social-factor');\n            const techFactor = document.getElementById('tech-factor');\n            const envFactor = document.getElementById('env-factor');\n            const decadeInfluence = document.getElementById('decade-influence');\n            const decadeValueSpan = document.getElementById('decade-value');\n            const toolResult = document.getElementById('tool-result');\n\n            decadeInfluence.addEventListener('input', () => {\n                const decades = decadeInfluence.value;\n                decadeValueSpan.textContent = `${decades} Décennie${decades > 1 ? 's' : ''}`;\n            });\n\n            form.addEventListener('submit', (event) => {\n                event.preventDefault();\n\n                const social = socialFactor.value;\n                const tech = techFactor.value;\n                const env = envFactor.value;\n                const decades = parseInt(decadeInfluence.value);\n\n                const trendMappings = {\n                    social: {\n                        individualisme: \"une mode centrée sur l'expression de soi unique, des pièces modulaires et personnalisables.\",\n                        collectivisme: \"des styles uniformes avec des marqueurs d'appartenance à des communautés, le co-création de vêtements.\",\n                        nomadisme: \"des vêtements multi-fonctions, légers, résistants et adaptés aux voyages et aux environnements variés.\",\n                        vieillissement: \"des designs ergonomiques, confortables, élégants et adaptés aux besoins des seniors actifs.\"\n                    },\n                    tech: {\n                        ia: \"une personnalisation poussée par l'IA (taille, style), des recommandations intelligentes et des créations assistées par algorithmes.\",\n                        biomat: \"des textiles cultivés (champignons, algues), auto-réparants et biodégradables, réduisant l'impact environnemental.\",\n                        wearables: \"des vêtements connectés pour la santé, l'interaction haptique, ou l'affichage de données, intégrant technologie et esthétique.\",\n                        vr: \"l'essor de la mode numérique pour les avatars, des défilés virtuels et des essayages immersifs avant l'achat physique.\"\n                    },\n                    env: {\n                        durabilite: \"une forte demande pour des vêtements éthiques, traçables, fabriqués localement et avec une empreinte carbone minimale.\",\n                        climAdapt: \"des matériaux thermorégulants, des designs modulables pour des températures extrêmes, et des protections UV/polluants intégrées.\",\n                        zeroDechet: \"des techniques de coupe sans perte, le surcyclage (upcycling) comme norme, et la location/réparation de vêtements généralisée.\",\n                        biophilie: \"des inspirations organiques, des couleurs naturelles, et des matières texturées rappelant la nature pour un lien accru avec l'environnement.\"\n                    }\n                };\n\n                const socialDesc = trendMappings.social[social];\n                const techDesc = trendMappings.tech[tech];\n                const envDesc = trendMappings.env[env];\n\n                let intro = '';\n                if (decades === 1) {\n                    intro = `Dans la prochaine décennie (${new Date().getFullYear() + 10}), attendez-vous à voir :`;\n                } else {\n                    intro = `D'ici les ${decades} prochaines décennies (${new Date().getFullYear() + (decades * 10)}), la mode sera marquée par :`;\n                }\n\n                const resultHTML = `\n                    <h4>Résultat de la Simulation :</h4>\n                    <p>${intro}</p>\n                    <div class=\"trend-category\">\n                        <strong>Influence Sociale :</strong> ${socialDesc}\n                    </div>\n                    <div class=\"trend-category\">\n                        <strong>Innovation Technologique :</strong> ${techDesc}\n                    </div>\n                    <div class=\"trend-category\">\n                        <strong>Réponse Environnementale :</strong> ${envDesc}\n                    </div>\n                    <p>Cette convergence de facteurs dessinera un paysage vestimentaire où fonctionnalité, éthique et identité numérique s'entremêleront pour créer des styles inattendus et profondément connectés à notre époque.</p>\n                `;\n\n                toolResult.innerHTML = resultHTML;\n            });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    if (tag === \"select\") {\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      field.value = sampleNumber(field);\n      return;\n    }\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
-    "generation_mode": "direct_html"
-  }
+  "source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778154698063/simulateur-d-evolution-des-styles-vestimentaires-3",
+  "deploy_root": "/var/lib/utility-site-studio/data/growth-republish/growth-1778154698063/simulateur-d-evolution-des-styles-vestimentaires-3"
 }
